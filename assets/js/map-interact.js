@@ -123,7 +123,9 @@ function addEvent(id,relationId){
 		_Textobj.mouseup(function(){
 			$('#'+id).css({'fill':map_config[id]['overColor']});
 			if(map_config[id]['target'] == 'new_window'){
-				window.open(map_config[id]['url']);	
+				// window.open(map_config[id]['url']);	
+				var object_id = map_config[id]['url'];
+				
 			}else if(map_config[id]['target'] == 'same_window'){
 				window.parent.location.href=map_config[id]['url'];
 			}

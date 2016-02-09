@@ -221,7 +221,9 @@ function dynamicAddEvent(id){
 			obj.on('touchend', function(){
 				$('#'+id).css({'fill':pin_config['points'][id]['upColor']});
 				if(pin_config['points'][id]['target'] == 'lightBox'){
-					window.open(pin_config['points'][id]['url']);
+					// window.open(pin_config['points'][id]['url']);
+					var object_id = map_config[id]['url'];
+					$.featherlight(object_id);
 				}else if(pin_config['points'][id]['target'] == 'same_window'){
 					window.parent.location.href=pin_config['points'][id]['url'];
 				}

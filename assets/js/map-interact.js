@@ -122,10 +122,10 @@ function addEvent(id,relationId){
 		})
 		_Textobj.mouseup(function(){
 			$('#'+id).css({'fill':map_config[id]['overColor']});
-			if(map_config[id]['target'] == 'new_window'){
+			if(map_config[id]['target'] == 'lightBox'){
 				// window.open(map_config[id]['url']);	
 				var object_id = map_config[id]['url'];
-				
+				$.featherlight(object_id);
 			}else if(map_config[id]['target'] == 'same_window'){
 				window.parent.location.href=map_config[id]['url'];
 			}
@@ -141,67 +141,67 @@ function addEvent(id,relationId){
 }
 
 //The pins code
-$(function(){
-	if($('#pin-shadow').find('path').eq(0).attr('fill') != 'undefined'){
-		var pinShadowOpacity = pin_config['default']['pinShadowOpacity'];
-		var pinShadowOpacity = parseInt(pinShadowOpacity);
-		if (pinShadowOpacity >=100){pinShadowOpacity = 1;}else if(pinShadowOpacity <=0){pinShadowOpacity =0;}else{pinShadowOpacity = pinShadowOpacity/100;}
+// $(function(){
+// 	if($('#pin-shadow').find('path').eq(0).attr('fill') != 'undefined'){
+// 		var pinShadowOpacity = pin_config['default']['pinShadowOpacity'];
+// 		var pinShadowOpacity = parseInt(pinShadowOpacity);
+// 		if (pinShadowOpacity >=100){pinShadowOpacity = 1;}else if(pinShadowOpacity <=0){pinShadowOpacity =0;}else{pinShadowOpacity = pinShadowOpacity/100;}
 
-		$('#pin-shadow').find('path').attr({'fill':pin_config['default']['pinShadow']}).css({'fill-opacity':pinShadowOpacity})
-};
+// 		$('#pin-shadow').find('path').attr({'fill':pin_config['default']['pinShadow']}).css({'fill-opacity':pinShadowOpacity})
+// };
 
 
-	var points_len = pin_config['points'].length;
-	if( points_len > 0){
-		var xmlns = "http://www.w3.org/2000/svg";
-		var tsvg_obj = document.getElementById("map_points");
-		var svg_circle,svg_rect;
-		for(var i=0;i<points_len;i++){
-			if (pin_config['points'][i]['shape']=="circle"){
-				svg_circle = document.createElementNS(xmlns, "circle");
-				svg_circle.setAttributeNS(null, "cx", pin_config['points'][i]['pos_X']+1);
-				svg_circle.setAttributeNS(null, "cy", pin_config['points'][i]['pos_Y']+1);
-				svg_circle.setAttributeNS(null, "r", pin_config['points'][i]['diameter']/2);
-				svg_circle.setAttributeNS(null, "fill", pin_config['default']['pinShadow']);
-				svg_circle.setAttributeNS(null, "style",'fill-opacity:'+pinShadowOpacity);
-				svg_circle.setAttributeNS(null, "id",'map_points_shadow_'+i);
-				tsvg_obj.appendChild(svg_circle);
-				svg_circle = document.createElementNS(xmlns, "circle");
-				svg_circle.setAttributeNS(null, "cx", pin_config['points'][i]['pos_X']);
-				svg_circle.setAttributeNS(null, "cy", pin_config['points'][i]['pos_Y']);
-				svg_circle.setAttributeNS(null, "r", pin_config['points'][i]['diameter']/2);
-				svg_circle.setAttributeNS(null, "fill", pin_config['points'][i]['upColor']);
-				svg_circle.setAttributeNS(null, "stroke",pin_config['points'][i]['outline']);
-				svg_circle.setAttributeNS(null, "stroke-width",pin_config['points'][i]['thickness']);
-				svg_circle.setAttributeNS(null, "id",'map_points_'+i);
-				tsvg_obj.appendChild(svg_circle);
-				dynamicAddEvent(i);
-			}
-			else if(pin_config['points'][i]['shape']=="rectangle"){
-				svg_rect = document.createElementNS(xmlns, "rect");
-				svg_rect.setAttributeNS(null, "x", pin_config['points'][i]['pos_X']- pin_config['points'][i]['width']/2+1);
-				svg_rect.setAttributeNS(null, "y", pin_config['points'][i]['pos_Y']- pin_config['points'][i]['height']/2+1);
-				svg_rect.setAttributeNS(null, "width", pin_config['points'][i]['width']);
-				svg_rect.setAttributeNS(null, "height", pin_config['points'][i]['height']);
-				svg_rect.setAttributeNS(null, "fill", pin_config['default']['pinShadow']);
-				svg_rect.setAttributeNS(null, "style",'fill-opacity:'+pinShadowOpacity);
-				svg_rect.setAttributeNS(null, "id",'map_points_shadow_'+i);
-				tsvg_obj.appendChild(svg_rect);
-				svg_rect = document.createElementNS(xmlns, "rect");
-				svg_rect.setAttributeNS(null, "x", pin_config['points'][i]['pos_X']- pin_config['points'][i]['width']/2);
-				svg_rect.setAttributeNS(null, "y", pin_config['points'][i]['pos_Y']- pin_config['points'][i]['height']/2);
-				svg_rect.setAttributeNS(null, "width", pin_config['points'][i]['width']);
-				svg_rect.setAttributeNS(null, "height", pin_config['points'][i]['height']);
-				svg_rect.setAttributeNS(null, "fill", pin_config['points'][i]['upColor']);
-				svg_rect.setAttributeNS(null, "stroke",pin_config['points'][i]['outline']);
-				svg_rect.setAttributeNS(null, "stroke-width",pin_config['points'][i]['thickness']);
-				svg_rect.setAttributeNS(null, "id",'map_points_'+i);
-				tsvg_obj.appendChild(svg_rect);
-				dynamicAddEvent(i);
-			}
-		}
-	}
-});
+// 	var points_len = pin_config['points'].length;
+// 	if( points_len > 0){
+// 		var xmlns = "http://www.w3.org/2000/svg";
+// 		var tsvg_obj = document.getElementById("map_points");
+// 		var svg_circle,svg_rect;
+// 		for(var i=0;i<points_len;i++){
+// 			if (pin_config['points'][i]['shape']=="circle"){
+// 				svg_circle = document.createElementNS(xmlns, "circle");
+// 				svg_circle.setAttributeNS(null, "cx", pin_config['points'][i]['pos_X']+1);
+// 				svg_circle.setAttributeNS(null, "cy", pin_config['points'][i]['pos_Y']+1);
+// 				svg_circle.setAttributeNS(null, "r", pin_config['points'][i]['diameter']/2);
+// 				svg_circle.setAttributeNS(null, "fill", pin_config['default']['pinShadow']);
+// 				svg_circle.setAttributeNS(null, "style",'fill-opacity:'+pinShadowOpacity);
+// 				svg_circle.setAttributeNS(null, "id",'map_points_shadow_'+i);
+// 				tsvg_obj.appendChild(svg_circle);
+// 				svg_circle = document.createElementNS(xmlns, "circle");
+// 				svg_circle.setAttributeNS(null, "cx", pin_config['points'][i]['pos_X']);
+// 				svg_circle.setAttributeNS(null, "cy", pin_config['points'][i]['pos_Y']);
+// 				svg_circle.setAttributeNS(null, "r", pin_config['points'][i]['diameter']/2);
+// 				svg_circle.setAttributeNS(null, "fill", pin_config['points'][i]['upColor']);
+// 				svg_circle.setAttributeNS(null, "stroke",pin_config['points'][i]['outline']);
+// 				svg_circle.setAttributeNS(null, "stroke-width",pin_config['points'][i]['thickness']);
+// 				svg_circle.setAttributeNS(null, "id",'map_points_'+i);
+// 				tsvg_obj.appendChild(svg_circle);
+// 				dynamicAddEvent(i);
+// 			}
+// 			else if(pin_config['points'][i]['shape']=="rectangle"){
+// 				svg_rect = document.createElementNS(xmlns, "rect");
+// 				svg_rect.setAttributeNS(null, "x", pin_config['points'][i]['pos_X']- pin_config['points'][i]['width']/2+1);
+// 				svg_rect.setAttributeNS(null, "y", pin_config['points'][i]['pos_Y']- pin_config['points'][i]['height']/2+1);
+// 				svg_rect.setAttributeNS(null, "width", pin_config['points'][i]['width']);
+// 				svg_rect.setAttributeNS(null, "height", pin_config['points'][i]['height']);
+// 				svg_rect.setAttributeNS(null, "fill", pin_config['default']['pinShadow']);
+// 				svg_rect.setAttributeNS(null, "style",'fill-opacity:'+pinShadowOpacity);
+// 				svg_rect.setAttributeNS(null, "id",'map_points_shadow_'+i);
+// 				tsvg_obj.appendChild(svg_rect);
+// 				svg_rect = document.createElementNS(xmlns, "rect");
+// 				svg_rect.setAttributeNS(null, "x", pin_config['points'][i]['pos_X']- pin_config['points'][i]['width']/2);
+// 				svg_rect.setAttributeNS(null, "y", pin_config['points'][i]['pos_Y']- pin_config['points'][i]['height']/2);
+// 				svg_rect.setAttributeNS(null, "width", pin_config['points'][i]['width']);
+// 				svg_rect.setAttributeNS(null, "height", pin_config['points'][i]['height']);
+// 				svg_rect.setAttributeNS(null, "fill", pin_config['points'][i]['upColor']);
+// 				svg_rect.setAttributeNS(null, "stroke",pin_config['points'][i]['outline']);
+// 				svg_rect.setAttributeNS(null, "stroke-width",pin_config['points'][i]['thickness']);
+// 				svg_rect.setAttributeNS(null, "id",'map_points_'+i);
+// 				tsvg_obj.appendChild(svg_rect);
+// 				dynamicAddEvent(i);
+// 			}
+// 		}
+// 	}
+// });
 
 function dynamicAddEvent(id){
 	var obj = $('#map_points_'+id);
@@ -220,7 +220,7 @@ function dynamicAddEvent(id){
 			})
 			obj.on('touchend', function(){
 				$('#'+id).css({'fill':pin_config['points'][id]['upColor']});
-				if(pin_config['points'][id]['target'] == 'new_window'){
+				if(pin_config['points'][id]['target'] == 'lightBox'){
 					window.open(pin_config['points'][id]['url']);
 				}else if(pin_config['points'][id]['target'] == 'same_window'){
 					window.parent.location.href=pin_config['points'][id]['url'];

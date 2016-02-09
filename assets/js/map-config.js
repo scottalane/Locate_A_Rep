@@ -10,7 +10,7 @@
 	'map_1':{
 		'hover': '<div class="state"><h1>ALABAMA</h1><hr /><h2>Food Equippment Marketing Inc.</h2><p><em>(Food Service)</em></p><h2></h2><ul class="company_address"><li>4159 Ringgold Rd</li><li>Ste 201</li><li>Chattanooga</li><li>TN 37412</li></ul><h3>John Stephens</h3><ul><li><a href="mailto:foodequipment1@gmail.com">foodequipment1@gmail.com</a></li><li>Cell 205-936-2902</li></ul></div>', //state hover content
 		'url':'#Alabama', //Goto URL
-		'target':'new_window', //open link in new window:new_window, open in current window:same_window, or none for nothing.
+		'target':'lightBox', //open link in new window:new_window, open in current window:same_window, or none for nothing.
 		'upColor':'#009933', //state's color when page loads
 		'overColor':'#FFEE88', //state's color when mouse hover
 		'downColor':'#FFEE88',//state's color when mouse clicking
@@ -19,7 +19,7 @@
 	'map_2':{
 		'hover': 'ALASKA',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -28,7 +28,7 @@
 	'map_3':{
 		'hover': 'ARIZONA',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -37,7 +37,7 @@
 	'map_4':{
 		'hover': 'ARKANSAS',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -46,7 +46,7 @@
 	'map_5':{
 		'hover': 'CALIFORNIA',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -55,7 +55,7 @@
 	'map_6':{
 		'hover': 'COLORADO',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -64,7 +64,7 @@
 	'map_7':{
 		'hover': 'CONNECTICUT',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -73,7 +73,7 @@
 	'map_8':{
 		'hover': 'DELAWARE',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -82,7 +82,7 @@
 	'map_9':{
 		'hover': 'FLORIDA',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -91,7 +91,7 @@
 	'map_10':{
 		'hover': 'GEORGIA',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -100,7 +100,7 @@
 	'map_11':{
 		'hover': 'HAWAII',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -109,7 +109,7 @@
 	'map_12':{
 		'hover': 'IDAHO',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -118,7 +118,7 @@
 	'map_13':{
 		'hover': 'ILLINOIS',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -127,7 +127,7 @@
 	'map_14':{
 		'hover': 'INDIANA',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -136,7 +136,7 @@
 	'map_15':{
 		'hover': 'IOWA',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -145,7 +145,7 @@
 	'map_16':{
 		'hover': 'KANSAS',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -154,7 +154,7 @@
 	'map_17':{
 		'hover': 'KENTUCKY',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -163,7 +163,7 @@
 	'map_18':{
 		'hover': 'LOUISIANA',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -172,7 +172,7 @@
 	'map_19':{
 		'hover': 'MAINE',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -181,7 +181,7 @@
 	'map_20':{
 		'hover': 'MARYLAND',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -190,7 +190,7 @@
 	'map_21':{
 		'hover': 'MASSACHUSETTS',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -199,7 +199,7 @@
 	'map_22':{
 		'hover': 'MICHIGAN',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -208,7 +208,7 @@
 	'map_23':{
 		'hover': 'MINNESOTA',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -217,7 +217,7 @@
 	'map_24':{
 		'hover': 'MISSISSIPPI',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -226,7 +226,7 @@
 	'map_25':{
 		'hover': 'MISSOURI',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -235,7 +235,7 @@
 	'map_26':{
 		'hover': 'MONTANA',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -244,7 +244,7 @@
 	'map_27':{
 		'hover': 'NEBRASKA',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -253,7 +253,7 @@
 	'map_28':{
 		'hover': 'NEVADA',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -262,7 +262,7 @@
 	'map_29':{
 		'hover': 'NEW HAMPSHIRE',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -271,7 +271,7 @@
 	'map_30':{
 		'hover': 'NEW JERSEY',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -280,7 +280,7 @@
 	'map_31':{
 		'hover': 'NEW MEXICO',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -289,7 +289,7 @@
 	'map_32':{
 		'hover': 'NEW YORK',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -298,7 +298,7 @@
 	'map_33':{
 		'hover': 'NORTH CAROLINA',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -307,7 +307,7 @@
 	'map_34':{
 		'hover': 'NORTH DAKOTA',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -316,7 +316,7 @@
 	'map_35':{
 		'hover': 'OHIO',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -325,7 +325,7 @@
 	'map_36':{
 		'hover': 'OKLAHOMA',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -334,7 +334,7 @@
 	'map_37':{
 		'hover': 'OREGON',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -343,7 +343,7 @@
 	'map_38':{
 		'hover': 'PENNSYLVANIA',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -352,7 +352,7 @@
 	'map_39':{
 		'hover': 'RHODE ISLAND',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -361,7 +361,7 @@
 	'map_40':{
 		'hover': 'SOUTH CAROLINA',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#FFEE88',
@@ -370,7 +370,7 @@
 	'map_41':{
 		'hover': 'SOUTH DAKOTA',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#FFEE88',
@@ -379,16 +379,16 @@
 	'map_42':{
 		'hover': 'TENNESSEE',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
 		'enable':true,
 	},
 	'map_43':{
-		'hover': '<b><u>TEXAS</u></b><br><img src="example.png">Here you can write some <b>HTML</b><br>formated text.<br>This state when clicked will<br>open the URL in the <span style="color:black; background-color:#a9f038;"><b>SAME</b></span><br>window.',
+		'hover': '<b><u>TEXAS</u></b><br>Here you can write some <b>HTML</b><br>formated text.<br>This state when clicked will<br>open the URL in the <span style="color:black; background-color:#a9f038;"><b>SAME</b></span><br>window.',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -397,7 +397,7 @@
 	'map_44':{
 		'hover': 'UTAH',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -406,7 +406,7 @@
 	'map_45':{
 		'hover': 'VERMONT',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -415,7 +415,7 @@
 	'map_46':{
 		'hover': 'VIRGINIA',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -424,7 +424,7 @@
 	'map_47':{
 		'hover': 'WASHINGTON',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -433,7 +433,7 @@
 	'map_48':{
 		'hover': 'WEST VIRGINIA',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -442,7 +442,7 @@
 	'map_49':{
 		'hover': 'WISCONSIN',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',
@@ -451,7 +451,7 @@
 	'map_50':{
 		'hover': 'WYOMING',
 		'url':'http://www.html5interactivemaps.com/',
-		'target':'new_window',
+		'target':'lightBox',
 		'upColor':'#33cc33',
 		'overColor':'#FFEE88',
 		'downColor':'#993366',

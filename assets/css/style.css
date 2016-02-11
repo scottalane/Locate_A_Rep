@@ -1,10 +1,18 @@
-/*body	{
-	width:	750px;
+body	{
+	width:	1250px;
 	font-family: Helvetica, sans-serif;
 	color: gray;
 }
+
+header	{
+	font-family: 'Roboto Slab', serif;
+	font-size: 72px;
+	color: green;
+	text-align: center;
+	margin-top: 30px;
+}
+
 .state {
-	
 	margin-top: 30px;
 	margin-right: 150px;
 	margin-bottom: 30px;
@@ -12,12 +20,10 @@
 
 	padding: 30px 30px 30px 30px;
 
-
-
 }
 h1 {
 	font-family: 'Roboto Slab', serif;
-	font-size: ;
+	font-size: 72px;
 	color: green;
 	text-align: center;
 
@@ -35,9 +41,16 @@ h3	{
 	font-family: 'Roboto Slab 400', serif;
 text-align: left;
 }
-	
+
+h4 {
+	text-align: center;
+	text-decoration: underline;
+}
+
 p {
 	text-align: center;
+	font-size: 36;
+	color:	green;
 
 }
 

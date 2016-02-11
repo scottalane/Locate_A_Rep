@@ -1,10 +1,10 @@
 ﻿var map_config = {
 	'default':{
-		'borderColor':'#9CA8B6', //inter-state borders
+		'borderColor':'#ffffff', //inter-state borders
 		'lakesColor':'#ACE9FC', // lakes color
 		'namesColor':'#000000', //color of short names
-		'mapShadow':'#0c2710', //shadow color below the map
-		'shadowOpacity':'50', //shadow opacity, value, 0-100
+		'mapShadow':'#003311', //shadow color below the map
+		'shadowOpacity':'75', //shadow opacity, value, 0-100
 		'hoverShadow':'#666666', //tooltip shadow color
 	},
 	'map_1':{
@@ -13,7 +13,7 @@
 		'target':'lightBox', //open link in new window:new_window, open in current window:same_window, or none for nothing.
 		'upColor':'#75d683', //state's color when page loads
 		'overColor':'#FFEE88', //state's color when mouse hover
-		'downColor':'#993366',//state's color when mouse clicking
+		'downColor':'#ff9933',//state's color when mouse clicking
 		'enable':true,//true/false to enable/disable this state
 	},
 	'map_2':{
@@ -22,7 +22,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_3':{
@@ -31,7 +31,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_4':{
@@ -40,7 +40,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_5':{
@@ -49,7 +49,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_6':{
@@ -58,7 +58,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_7':{
@@ -67,7 +67,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_8':{
@@ -76,7 +76,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_9':{
@@ -85,7 +85,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_10':{
@@ -94,7 +94,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_11':{
@@ -103,7 +103,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_12':{
@@ -112,7 +112,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_13':{
@@ -121,7 +121,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_14':{
@@ -130,7 +130,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_15':{
@@ -139,7 +139,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_16':{
@@ -148,7 +148,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_17':{
@@ -157,7 +157,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_18':{
@@ -166,7 +166,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_19':{
@@ -175,7 +175,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_20':{
@@ -184,7 +184,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_21':{
@@ -193,7 +193,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_22':{
@@ -202,7 +202,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_23':{
@@ -211,7 +211,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_24':{
@@ -220,7 +220,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_25':{
@@ -229,7 +229,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_26':{
@@ -238,7 +238,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_27':{
@@ -247,7 +247,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_28':{
@@ -256,7 +256,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_29':{
@@ -265,7 +265,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_30':{
@@ -274,7 +274,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_31':{
@@ -283,7 +283,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_32':{
@@ -292,7 +292,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_33':{
@@ -301,7 +301,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_34':{
@@ -310,7 +310,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_35':{
@@ -319,7 +319,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_36':{
@@ -328,7 +328,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_37':{
@@ -337,7 +337,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_38':{
@@ -346,7 +346,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_39':{
@@ -355,7 +355,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_40':{
@@ -382,7 +382,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_43':{
@@ -391,7 +391,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_44':{
@@ -400,7 +400,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_45':{
@@ -409,7 +409,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_46':{
@@ -418,7 +418,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_47':{
@@ -427,7 +427,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_48':{
@@ -436,7 +436,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_49':{
@@ -445,7 +445,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 	'map_50':{
@@ -454,7 +454,7 @@
 		'target':'lightBox',
 		'upColor':'#75d683',
 		'overColor':'#FFEE88',
-		'downColor':'#993366',
+		'downColor':'#ff9933',
 		'enable':true,
 	},
 }

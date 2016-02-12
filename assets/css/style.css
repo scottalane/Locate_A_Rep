@@ -34,29 +34,40 @@ h2	{
 	font-family: Helvetica, sans-serif;
 	color: ;
 	text-align: center;
+	font-size: 40px;
+	padding-bottom: 5px;
+	bottom-margin: 0px;
 }
 	
 
 h3	{
 	font-family: 'Roboto Slab 400', serif;
-text-align: left;
+	text-align: left;
+	margin-left: 40 px;
 }
 
 h4 {
 	text-align: center;
-	text-decoration: underline;
+	font-size: 24px;
+	color: green;
+	padding-top: 5px;
 }
 
 p {
 	text-align: center;
 	font-size: 36;
-	color:	green;
+}
 
+ul {
+	list-style-type: none;
 }
 
 li	{
 text-align: left;
 }
 
+.company_address{
+	text-align: center;
+}
 
 */

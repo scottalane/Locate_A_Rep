@@ -1,4 +1,4 @@
-<script type="text/javascript">
+$( document ).ready(function() {
   WebFontConfig = {
     google: { families: [ 'Roboto+Slab:400,100,300,700:latin' ] }
   };
@@ -10,4 +10,11 @@
     wf.async = 'true';
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(wf, s);
-  })(); </script>
+  })();
+
+  $(".sent_button").click(function(){
+    var name = $(this).siblings("h3");
+     $(this).append( "<p>Thanks! A sales representative will contact you soon!</p>" );
+
+  });
+});

@@ -14,7 +14,7 @@ $( document ).ready(function() {
 
   $(".sent_button").click(function(){
     var name = $(this).siblings("h3");
-     $(this).append( <img src="assets/ThankYou_Locate_A_Rep_WhtBkg.png> );
+     $(this).append( <img src="assets/ThankYou_Locate_A_Rep_WhtBkg.png"> );
 
   });
 });

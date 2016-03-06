@@ -1,7 +1,8 @@
 body	{
 	font-family: Helvetica, sans-serif;
-	color: gray;
+	color: #808080;
 }
+
 
 header	{
 	font-family: 'Roboto Slab', serif;
@@ -32,6 +33,7 @@ h1 {
 	color: green;
 	text-align: center;
 	margin: 0;
+	border-bottom: solid 2px gray;
 }
 	
 
@@ -39,26 +41,42 @@ h2	{
 	font-family: Helvetica, sans-serif;
 	color: ;
 	text-align: center;
-	font-size: 140%;
+	font-size: 160%;
 	padding-bottom: 5px;
-	bottom-margin: 0px;
+	margin: 0px;
 }
 	
 
 h3	{
-	font-family: 'Roboto Slab 400', serif;
+	font-family: 'Roboto Slab', serif;
 	text-align: left;
 	margin: 0;
-	border-bottom: solid 1px green;
-	width: 40%;
+	/*border-bottom: solid 1px gray;
+	width: 50%;*/
 
+}
+.name {
+	color: 808080;
+}
+
+.territory {
+	color: #B3B3B3;
+	border-bottom: solid 1px #cccccc;
 }
 
 h4 {
 	text-align: center;
 	font-size: 120%;
 	color: green;
-	padding-top: 5px;
+	padding-top: 0px;
+	margin: 0px;
+}
+
+h5 {
+font-size: 80%;
+border-bottom: solid 1px gray;
+width: 50%;
+margin: 0;
 }
 
 p {
@@ -74,8 +92,13 @@ li	{
 text-align: left;
 }
 
-.company_address{
+.company_address {
 	text-align: center;
 }
-
+/*
+.sent_button {
+	font-family: 'Grand Hotel', cursive;
+	font-size: 150%;
+	color: green;
+}
 */

@@ -93,6 +93,12 @@ text-align: left;
 .company_address {
 	text-align: center;
 }
+
+.thanks_img {
+	max-width: 30%;
+	padding-left: 18%;
+}
+
 /*
 .sent_button {
 	font-family: 'Grand Hotel', cursive;

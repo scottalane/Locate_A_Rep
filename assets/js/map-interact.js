@@ -4,7 +4,14 @@ function isTouchEnabled() {
 		|| (navigator.MaxTouchPoints > 0)
 		|| (navigator.msMaxTouchPoints > 0));
 }
+/*This function returns a true if you are on a device that enables touch. This function 
+returns a false if you are in a device that doesn't support touch. I think!
+(navigator.MaxTouchPoints) is looking for a return greater than 0 if the property exsists
+to detect if the device is touch enabled.
+The most common use cases foe detecting touch is to increase the responsivness of an interface
+for touch users.
 
+*/
 $(function(){
 	addEvent('map_1');
 	addEvent('map_2');

@@ -458,3 +458,57 @@
 		'enable':true,
 	},
 }
+/* The "hover'() method speciefies that a function run when the mouse pointer 
+hovers over the selected element. In this case it is the shape of the state of
+Wyoming.
+
+"url' stands for Uniform Resource Locator.
+A relative URL can be used when linking to pages within your own website.They provide a 
+shorthand way of telling the browser where to find your files.
+Web browsers also request from web servers by using a URL. When you click on this link
+in an HTML page, an underlying <a> tag points to an address on the web, or within the confines
+of a index.html file. In the case of 'map_50' its directing the user to the information that is to be 
+displayed.
+
+
+The target property - everytime an event fires, the object contains helpful data about the event
+such as which element the event happened on, which key was pressed for a keypress event, and 
+what part of the viewport the user clicked or a click event (the viewport is the part of the 
+browser window that shows the webpage) in this case it's the 'lightBox' that pops up to display the
+Rep information.
+
+The target event property returns the element that triggered the event,and not
+neccessarily the eventlistener's element.
+
+'upColor' is the color of the States in the map when the map initially loads in the viewport.
+'#75d683' is the hex value that species the color of the State
+in this case it a medium green
+
+'overColor' is the color the individual State that you hover over, one at a time. It tells the
+user which State they are on. 
+'#FFEE88' is a yellow color
+
+'downColor' is the color the State turns when the user clicks or touches their screen with
+their finger.
+'#ff9933' is an orange color
+
+As far as I can tell 'enable' just allows something to run or work. Am I correct to assume that
+it refers to the click through that allows the lightbox to pop up?
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
